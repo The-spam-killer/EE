@@ -40,7 +40,7 @@ def geometricSeequence2(i, n,A):
 # Breakeven1(Cv=450,Cf=180000,p=700)
 
 # Present Value
-# uniformGradient1(g= 1000, i=0.15, n=4)
+uniformGradient1(g= 1000, i=0.15, n=4)
 
 # Annuaty Value
 # uniformGradient2(g= 1, i=0.06, n=10)
@@ -48,8 +48,10 @@ def geometricSeequence2(i, n,A):
 # Future Value
 uniformGradient3(g= 1, i=0.032, n=9)
 
-# When f != i
-# geometricSeequence1(i= 0.045, f= 0.02, n=32, A=1000)
+# When f != i      f : decreases by .... per year dont forget if decrease insert -ve on f
+geometricSeequence1(i= 0.25, f= -0.2, n=4, A=1000)
 
 # f == i
 # geometricSeequence2(i=0.25, n=4,A=1000)
+
+
